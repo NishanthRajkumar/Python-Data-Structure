@@ -27,5 +27,5 @@ def unique_values(dictionary_data: dict):
 
 if __name__ == '__main__':
     logging.basicConfig(handlers=[logging.FileHandler(r"dictionary_programs\dictionary.log"), logging.StreamHandler(sys.stdout)], level=logging.INFO)
-    sample_dictionary = {1: 230, 2: 350, 3: 130, 4: 230, 5: 130}
+    sample_dictionary = {"V":"S001", "V": "S002", "VI": "S001", "VI": "S005", "VII":"S005", "V":"S009", "VIII":"S007"}
     unique_values(sample_dictionary)
