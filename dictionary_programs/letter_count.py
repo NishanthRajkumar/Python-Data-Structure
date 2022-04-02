@@ -8,7 +8,7 @@
 import logging
 import sys
 
-def unique_values(string_to_evaluate: str):
+def letter_count(string_to_evaluate: str):
     """
         Description:
             Counts the occurence of distinct letters in string
@@ -32,4 +32,4 @@ def unique_values(string_to_evaluate: str):
 
 if __name__ == '__main__':
     logging.basicConfig(handlers=[logging.FileHandler(r"dictionary_programs\dictionary.log"), logging.StreamHandler(sys.stdout)], level=logging.INFO)
-    unique_values('w3resource')
+    letter_count('w3resource')
