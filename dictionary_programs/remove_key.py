@@ -11,7 +11,7 @@ import sys
 def remove_key(dictionary_to_update: dict, key):
     """
         Description:
-            Generates square table dictionary for given n value
+            Removes key from dictionary
         
         Parameter:
             dictionary_to_update: the dictionary to remove the key from
