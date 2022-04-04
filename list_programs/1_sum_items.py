@@ -15,6 +15,9 @@ def sum_of_items(list_of_items: list):
         
         Parameter:
             list_of_items: a list. The list items must be of numeric type or string type
+        
+        Return:
+            None
     """
     logging.info(f"The list is {list_of_items}")
     if type(list_of_items[0]) in [int, float, complex]:
