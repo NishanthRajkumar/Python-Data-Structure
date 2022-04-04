@@ -30,7 +30,7 @@ def sum_of_items(list_of_items: list):
                 return None
             item_sum += item
     else:
-        for item in list_of_items:
+        for item in list_of_items[1:]:
             if type(item) is not str:
                 logging.error("Not all list items were of string type")
                 return None
