@@ -36,4 +36,4 @@ def slice_tuple(tuple_data: tuple, index: int = None):
 
 if __name__=='__main__':
     logging.basicConfig(handlers=[logging.FileHandler(r"tuple_programs\tuple_programs.log"), logging.StreamHandler(sys.stdout)], level=logging.INFO)
-    slice_tuple(['rgb', 70, 30, 49, 'rgb', 30, 30, 70], 4)
+    slice_tuple(('rgb', 70, 30, 49, 'rgb', 30, 30, 70), 4)
