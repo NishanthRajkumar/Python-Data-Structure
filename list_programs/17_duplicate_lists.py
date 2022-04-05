@@ -14,7 +14,7 @@ def remove_duplicate_lists(list_of_lists: list[list]):
             Remove duplicate lists
         
         Parameter:
-            list1, list2: The 2 lists to check if circularly identical
+            list_of_lists: A list of list type items
         
         Return:
             None
