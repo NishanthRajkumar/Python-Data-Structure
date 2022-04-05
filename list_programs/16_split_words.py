@@ -8,7 +8,7 @@
 import sys
 import logging
 
-def remove_items(list_data: list):
+def split_words_in_list(list_data: list):
     """
         Description:
             Splits a list based on first character of word
@@ -28,4 +28,4 @@ def remove_items(list_data: list):
 if __name__=='__main__':
     logging.basicConfig(handlers=[logging.FileHandler(r"list_programs\list_programs.log"), logging.StreamHandler(sys.stdout)], level=logging.INFO)
     sample_list = ['Red', 'Green', 'White', 234, 3+8j, 'Black', 'Pink', 'Yellow']
-    remove_items(sample_list)
+    split_words_in_list(sample_list)
