@@ -5,7 +5,6 @@
     @Last Modified Date: 05-04-2022 07:46:00
     @Title: Check if 2 lists have common items
 '''
-from copy import deepcopy
 import sys
 import logging
 
