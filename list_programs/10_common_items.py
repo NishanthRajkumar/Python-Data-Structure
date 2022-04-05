@@ -19,7 +19,7 @@ def chk_common_item(list1: list, list2: list):
             list2: 2nd list
         
         Return:
-            None
+            True if if common items present, else False
     """
     for item in list1:
         if item in list2:
