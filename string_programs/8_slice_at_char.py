@@ -11,10 +11,10 @@ import logging
 def slice_at_char(text: str):
     """
         Description:
-            Sorts comma separated words alphanumerically
+            Gets the last part of a string before a specified character
         
         Parameter:
-            comma_sep_text: comma separated text
+            text: any string text
         
         Return:
             None
