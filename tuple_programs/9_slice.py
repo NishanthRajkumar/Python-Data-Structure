@@ -11,7 +11,7 @@ import logging
 def slice_tuple(tuple_data: tuple, index: int = None):
     """
         Description:
-            Removes item from tuple
+            Slices the tuple at given index
         
         Parameter:
             tuple_data: a tuple
